@@ -108,7 +108,7 @@ function App() {
           <div className="mx-auto w-[500px]">
             {data.map((item) => (
               <Card
-                key={item.id} // Ensure the key is unique
+                key={item.id}
                 {...item}
                 handleDelete={() => handleDelete(item.id)}
                 handleEdit={() => handleEdit(item)}
